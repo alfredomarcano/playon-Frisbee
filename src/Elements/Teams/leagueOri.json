@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "id_Team": 1,
+        "PJ": 2,
+        "PG": 2,
+        "PP": 0,
+        "GF": 12,
+        "GE": 4,
+        "Int": 9,
+        "Asis": 12,
+        "Ptos": 6,
+        "id_temp": 22
+    },
+    {
+        "id": 1,
+        "id_Team": 6,
+        "PJ": 2,
+        "PG": 2,
+        "PP": 0,
+        "GF": 12,
+        "GE": 4,
+        "Int": 9,
+        "Asis": 12,
+        "Ptos": 6,
+        "id_temp": 22
+    },
+    {
+        "id": 1,
+        "id_Team": 4,
+        "PJ": 2,
+        "PG": 2,
+        "PP": 0,
+        "GF": 12,
+        "GE": 4,
+        "Int": 9,
+        "Asis": 12,
+        "Ptos": 6,
+        "id_temp": 22
+    },
+    {
+        "id": 1,
+        "id_Team": 7,
+        "PJ": 2,
+        "PG": 2,
+        "PP": 0,
+        "GF": 12,
+        "GE": 4,
+        "Int": 9,
+        "Asis": 12,
+        "Ptos": 6,
+        "id_temp": 22
+    },
+    {
+        "id": 1,
+        "id_Team": 5,
+        "PJ": 2,
+        "PG": 2,
+        "PP": 0,
+        "GF": 12,
+        "GE": 4,
+        "Int": 9,
+        "Asis": 12,
+        "Ptos": 6,
+        "id_temp": 22
+    }
+]

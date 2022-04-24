@@ -1,22 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Teams } from "./Elements/Teams/Teams";
+import { Competitions } from "./Elements/Competitions/Competitions";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Header } from "./Elements/Header";
+import { Champions } from "./Elements/Champions/Champions";
+import { Footer } from "./Elements/Footer";
+import { NavBar } from './Elements/navBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>React applitacion - Esta es la aplicacion</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <div className="container90">
+        <Champions />
+        <Header />
+        <Teams />
+        <Competitions />
+        </div>
+      <Footer />
+    </>
   );
 }
 

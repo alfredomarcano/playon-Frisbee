@@ -1,0 +1,21 @@
+.Competiciones{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 25px;
+}
+
+.Compet-event{
+    background-color: white;
+    box-shadow: 0px 0px 6px 2px #c4c4c4;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4rem;
+}
+.Compet-event img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
