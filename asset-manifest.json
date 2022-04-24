@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/playon-Frisbee/static/css/main.073c9b0a.css",
-    "main.js": "/playon-Frisbee/static/js/main.ef0e4364.js",
+    "main.js": "/playon-Frisbee/static/js/main.659bc6d1.js",
     "static/js/787.8fec994e.chunk.js": "/playon-Frisbee/static/js/787.8fec994e.chunk.js",
     "static/media/logo.svg": "/playon-Frisbee/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/playon-Frisbee/index.html",
     "main.073c9b0a.css.map": "/playon-Frisbee/static/css/main.073c9b0a.css.map",
-    "main.ef0e4364.js.map": "/playon-Frisbee/static/js/main.ef0e4364.js.map",
+    "main.659bc6d1.js.map": "/playon-Frisbee/static/js/main.659bc6d1.js.map",
     "787.8fec994e.chunk.js.map": "/playon-Frisbee/static/js/787.8fec994e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ef0e4364.js"
+    "static/js/main.659bc6d1.js"
   ]
 }
