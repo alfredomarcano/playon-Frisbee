@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/playon-Frisbee/static/css/main.073c9b0a.css",
-    "main.js": "/playon-Frisbee/static/js/main.659bc6d1.js",
-    "static/js/787.8fec994e.chunk.js": "/playon-Frisbee/static/js/787.8fec994e.chunk.js",
-    "static/media/logo.svg": "/playon-Frisbee/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/playon-Frisbee/static/css/main.bab2f94b.css",
+    "main.js": "/playon-Frisbee/static/js/main.c788ad97.js",
+    "static/media/logo.png": "/playon-Frisbee/static/media/logo.5de48bd89a92014d7f9e.png",
+    "static/media/Adrenalina-up.png": "/playon-Frisbee/static/media/Adrenalina-up.53cfa67f945e7d6cf1dd.png",
+    "static/media/team2.png": "/playon-Frisbee/static/media/team2.de608114e337f094d264.png",
+    "static/media/Ev.png": "/playon-Frisbee/static/media/Ev.e4dbc1f1953f6c7a188f.png",
+    "static/media/TVTUF.png": "/playon-Frisbee/static/media/TVTUF.776ef4742e191a70c4af.png",
+    "static/media/fondo.jpg": "/playon-Frisbee/static/media/fondo.d0234f8b83ffc13009bc.jpg",
+    "static/media/flyer-Copy.jpg": "/playon-Frisbee/static/media/flyer-Copy.b7266f0d1b011a9c0d60.jpg",
+    "static/media/soulgame.jpg": "/playon-Frisbee/static/media/soulgame.cf5e5869771cbc9cb5af.jpg",
+    "static/media/team1.png": "/playon-Frisbee/static/media/team1.3989358541cd3cce916e.png",
+    "static/media/MD2020.jpg": "/playon-Frisbee/static/media/MD2020.0074a6f43ca601817182.jpg",
+    "static/media/Voladores21.jpg": "/playon-Frisbee/static/media/Voladores21.d5043bc06f32def1c7b2.jpg",
     "index.html": "/playon-Frisbee/index.html",
-    "main.073c9b0a.css.map": "/playon-Frisbee/static/css/main.073c9b0a.css.map",
-    "main.659bc6d1.js.map": "/playon-Frisbee/static/js/main.659bc6d1.js.map",
-    "787.8fec994e.chunk.js.map": "/playon-Frisbee/static/js/787.8fec994e.chunk.js.map"
+    "main.bab2f94b.css.map": "/playon-Frisbee/static/css/main.bab2f94b.css.map",
+    "main.c788ad97.js.map": "/playon-Frisbee/static/js/main.c788ad97.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.659bc6d1.js"
+    "static/css/main.bab2f94b.css",
+    "static/js/main.c788ad97.js"
   ]
 }
