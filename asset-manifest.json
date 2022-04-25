@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/playon-Frisbee/static/css/main.7762354b.css",
+    "main.css": "/playon-Frisbee/static/css/main.2aa21687.css",
     "main.js": "/playon-Frisbee/static/js/main.46391ea9.js",
     "static/media/Adrenalina-up.png": "/playon-Frisbee/static/media/Adrenalina-up.53cfa67f945e7d6cf1dd.png",
     "static/media/Ev.png": "/playon-Frisbee/static/media/Ev.e4dbc1f1953f6c7a188f.png",
@@ -31,11 +31,11 @@
     "static/media/Pachamamas.jpg": "/playon-Frisbee/static/media/Pachamamas.c492470ad4123fc9ab44.jpg",
     "static/media/Araguaney.png": "/playon-Frisbee/static/media/Araguaney.b93ac52c10eb187b7ee5.png",
     "index.html": "/playon-Frisbee/index.html",
-    "main.7762354b.css.map": "/playon-Frisbee/static/css/main.7762354b.css.map",
+    "main.2aa21687.css.map": "/playon-Frisbee/static/css/main.2aa21687.css.map",
     "main.46391ea9.js.map": "/playon-Frisbee/static/js/main.46391ea9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7762354b.css",
+    "static/css/main.2aa21687.css",
     "static/js/main.46391ea9.js"
   ]
 }
