@@ -1,7 +1,7 @@
 .Competiciones{
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+    grid-gap: 35px;
 }
 
 .Compet-event{
@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 5px;
     padding: 0.4rem;
 }
 .Compet-event img{

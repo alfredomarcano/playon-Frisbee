@@ -4,7 +4,7 @@
 
 .row{
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
     grid-gap: 15px;
     margin: 10px 0;
 }

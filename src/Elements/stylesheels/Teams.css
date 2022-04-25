@@ -27,8 +27,8 @@
 /* Estilos de los Team */
 .Teams{
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 30px;
     list-style: none;
 }
 
