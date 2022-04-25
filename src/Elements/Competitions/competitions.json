@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name_comp": "Adrenalina Up",
+    "icon": "competitions/Adrenalina-up.png",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-05-29 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  },
+  {
+    "id": "2",
+    "name_comp": "Espiritud Volador",
+    "icon": "competitions/Ev.png",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-07-17 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  },
+  {
+    "id": "3",
+    "name_comp": "Torneo Ultimate Frisbee San felipe",
+    "icon": "competitions/flyer-Copy.jpg",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-04-03 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  },
+  {
+    "id": "4",
+    "name_comp": "Torneo MD2020",
+    "icon": "competitions/MD2020.jpg",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-05-08 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  },
+  {
+    "id": "5",
+    "name_comp": "Soul Game",
+    "icon": "competitions/soulgame.jpg",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-01-09 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  },
+  {
+    "id": "6",
+    "name_comp": "Torneo Valles de turmero",
+    "icon": "competitions/TVTUF.png",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-09-18 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  },
+  {
+    "id": "7",
+    "name_comp": "Voladores 21 aniversario",
+    "icon": "competitions/Voladores21.jpg",
+    "lugar": "Campo Deportivo la trinidad",
+    "date_event": "2021-11-20 08:00:25",
+    "durant_event": "Sabado y Domingo",
+    "award": "1 Lugar, 2 Lugar, Espiritud de Juego"
+  }
+]

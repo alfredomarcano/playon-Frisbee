@@ -1,57 +1,21 @@
 import React from "react";
+import dateFormat from "dateformat";
 import "../stylesheels/Competitions.css";
+import competitons from "./competitions.json";
 
 export function Competitions() {
   return (
     <div className="Competiciones">
-      <div className='Compet-event'>
-        <img src={require("./imagenes/Adrenalina-up.png")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
+      {competitons.map((ListComp) => (
+        <div className="Compet-event" key={ListComp.id}>
+          <img src={require('../../../public/imagenes/'+ ListComp.icon)} alt="" width="100%" height="100%" />
+          <div>
+            <h3>{ListComp.name_comp}</h3>
+            <h5>{ListComp.lugar}</h5>
+            <h6>{dateFormat(ListComp.date_event, "ddd, mmm d, yyyy, h:MM TT")}</h6>
+          </div>
         </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/Ev.png")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/flyer-Copy.jpg")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/MD2020.jpg")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/soulgame.jpg")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/TVTUF.png")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/Voladores21.jpg")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
-      <div className='Compet-event'>
-        <img src={require("./imagenes/Adrenalina-up.png")} alt="" width="100%" height="100%"/>
-        <div>
-          <h3>Nombre del evento</h3>
-        </div>
-      </div>
+      ))}
     </div>
   );
 }

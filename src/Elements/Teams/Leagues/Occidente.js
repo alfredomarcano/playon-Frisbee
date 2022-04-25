@@ -1,3 +1,4 @@
+import teams from "../teams.json";
 export function LeagueOccidente() {
   return (
     <div className="LeagueOcc">
@@ -13,7 +14,12 @@ export function LeagueOccidente() {
           </tr>
         </thead>
         <tbody>
-          
+        {teams.map((listCentro, i) => (
+            <tr key={i}>
+              <td>{listCentro.id}</td>
+              <td>{listCentro.Prefix}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

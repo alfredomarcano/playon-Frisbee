@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name_team_one": "Evolucion",
+        "logo_team_one": "teams.png",
+        "name_team_two": "Warao",
+        "logo_team_two": "teams.png",
+        "date_event": "Friday",
+        "estadio": "",
+        "status": ""
+    },    
+    {
+        "id": 1,
+        "name_team_one": "",
+        "logo_team_one": "teams.png",
+        "name_team_two": "",
+        "logo_team_two": "teams.png",
+        "date_event": "",
+        "estadio": "",
+        "status": ""
+    },    
+    {
+        "id": 1,
+        "name_team_one": "",
+        "logo_team_one": "teams.png",
+        "name_team_two": "",
+        "logo_team_two": "teams.png",
+        "date_event": "2021-08-28 08:00:25",
+        "estadio": "",
+        "status": ""
+    },    
+    {
+        "id": 1,
+        "name_team_one": "",
+        "logo_team_one": "teams.png",
+        "name_team_two": "",
+        "logo_team_two": "teams.png",
+        "date_event": "2021-08-28 08:00:25",
+        "estadio": "",
+        "status": ""
+    },   
+    {
+        "id": 1,
+        "name_team_one": "",
+        "logo_team_one": "teams.png",
+        "name_team_two": "",
+        "logo_team_two": "teams.png",
+        "date_event": "2021-08-28 08:00:25",
+        "estadio": "",
+        "status": ""
+    }    
+]

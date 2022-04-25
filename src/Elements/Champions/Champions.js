@@ -16,7 +16,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -25,7 +25,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -44,7 +44,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -53,7 +53,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -72,7 +72,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -81,7 +81,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -100,7 +100,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -109,7 +109,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -128,7 +128,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -137,7 +137,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -156,7 +156,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -165,7 +165,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
               <span>Name Teams</span>
             </article>
             <article>
@@ -185,7 +185,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              // <img src={require("../imagenes/team1.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -194,7 +194,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              // <img src={require("../imagenes/team2.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -213,7 +213,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              // <img src={require("../imagenes/team1.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -222,7 +222,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              // <img src={require("../imagenes/team2.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -241,7 +241,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              // <img src={require("../imagenes/team1.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -250,7 +250,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              // <img src={require("../imagenes/team2.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -269,7 +269,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              // <img src={require("../imagenes/team1.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -278,7 +278,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              // <img src={require("../imagenes/team2.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -297,7 +297,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              // <img src={require("../imagenes/team1.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -306,7 +306,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              // <img src={require("../imagenes/team2.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -325,7 +325,7 @@ export function Champions() {
           </section>
           <section className="items-team1">
             <article className="items-team">
-              <img src={require("../imagenes/team1.png")} alt="" />
+              // <img src={require("../imagenes/team1.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
@@ -334,7 +334,7 @@ export function Champions() {
           </section>
           <section className="items-team2">
             <article className="items-team">
-              <img src={require("../imagenes/team2.png")} alt="" />
+              // <img src={require("../imagenes/team2.png")} alt="" />
               <span>Name Teams</span>
             </article>
             <article>
