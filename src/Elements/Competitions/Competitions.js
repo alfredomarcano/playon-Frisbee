@@ -6,7 +6,7 @@ import competitons from "./competitions.json";
 export function Competitions() {
   return (
     <div className="Competiciones">
-      {competitons.map((ListComp) => (
+      {competitons.map(ListComp => (
         <div className="Compet-event" key={ListComp.id}>
           <img src={require('../../../public/imagenes/'+ ListComp.icon)} alt="" width="100%" height="100%" />
           <div>

@@ -1,347 +1,42 @@
 import React from "react";
 import "../stylesheels/Champions.css";
+import champions from "./Champions.json";
+import dateFormat from "dateformat";
 
 export function Champions() {
   return (
     <div className="Champions">
       <div className="row">
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team1.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              {/* <img src={require("../imagenes/team2.png")} alt="" /> */}
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-
-        {/* <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              // <img src={require("../imagenes/team1.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              // <img src={require("../imagenes/team2.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              // <img src={require("../imagenes/team1.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              // <img src={require("../imagenes/team2.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              // <img src={require("../imagenes/team1.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              // <img src={require("../imagenes/team2.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              // <img src={require("../imagenes/team1.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              // <img src={require("../imagenes/team2.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              // <img src={require("../imagenes/team1.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              // <img src={require("../imagenes/team2.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div>
-        <div className="champs-items">
-          <section className="items-title">
-            <article>
-              <span>Fri, 4/29 7:00 PM EDT</span>
-            </article>
-            <article>
-              <span>Upcomming</span>
-            </article>
-          </section>
-          <section className="items-team1">
-            <article className="items-team">
-              // <img src={require("../imagenes/team1.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-          <section className="items-team2">
-            <article className="items-team">
-              // <img src={require("../imagenes/team2.png")} alt="" />
-              <span>Name Teams</span>
-            </article>
-            <article>
-              <span>0 Ptos</span>
-            </article>
-          </section>
-        </div> */}
+        {champions.map(Listchamp => (
+          <div className="champs-items" key={Listchamp.id}>
+            <section className="items-title">
+              <article>
+                <span>{dateFormat(Listchamp.date_event, "ddd, m/d h:MM TT")}</span>
+              </article>
+              <article>
+                <span>{Listchamp.status}</span>
+              </article>
+            </section>
+            <section className="items-team1">
+              <article className="items-team">
+                <img src={require('../../../public/imagenes/'+ Listchamp.logo_team_one)} alt="" />
+                <span>{Listchamp.name_team_one}</span>
+              </article>
+              <article>
+                <span>0 Ptos</span>
+              </article>
+            </section>
+            <section className="items-team2">
+              <article className="items-team">
+                <img src={require("../../../public/imagenes/"+ Listchamp.logo_team_two)} alt="" />
+                <span>{Listchamp.name_team_two}</span>
+              </article>
+              <article>
+                <span>0 Ptos</span>
+              </article>
+            </section>
+          </div>
+        ))}
       </div>
     </div>
   );

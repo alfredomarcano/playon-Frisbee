@@ -1,52 +1,62 @@
 [
     {
         "id": 1,
-        "name_team_one": "Evolucion",
-        "logo_team_one": "teams.png",
-        "name_team_two": "Warao",
-        "logo_team_two": "teams.png",
-        "date_event": "Friday",
-        "estadio": "",
-        "status": ""
+        "name_team_one": "Evolution",
+        "logo_team_one": "teams/Evolution.jpg",
+        "name_team_two": "Raza",
+        "logo_team_two": "teams/Raza.png",
+        "date_event": "2022-04-14 07:45:55",
+        "estadio": "Ovalo de Turmero",
+        "status": "Pendiente"
     },    
     {
-        "id": 1,
-        "name_team_one": "",
-        "logo_team_one": "teams.png",
-        "name_team_two": "",
-        "logo_team_two": "teams.png",
-        "date_event": "",
-        "estadio": "",
-        "status": ""
+        "id": 2,
+        "name_team_one": "Warao",
+        "logo_team_one": "teams/Waraout.jpg",
+        "name_team_two": "Tribu",
+        "logo_team_two": "teams/Tribu.jpg",
+        "date_event": "2022-04-17 09:55:12",
+        "estadio": "La trinidad",
+        "status": "Pendiente"
     },    
     {
-        "id": 1,
-        "name_team_one": "",
-        "logo_team_one": "teams.png",
-        "name_team_two": "",
-        "logo_team_two": "teams.png",
-        "date_event": "2021-08-28 08:00:25",
-        "estadio": "",
-        "status": ""
+        "id": 3,
+        "name_team_one": "Trebol",
+        "logo_team_one": "teams/Trebol.jpg",
+        "name_team_two": "Caobos",
+        "logo_team_two": "teams/Caobos.jpeg",
+        "date_event": "2021-05-29 08:00:25",
+        "estadio": "Ucv Aragua",
+        "status": "Pendiente"
     },    
     {
-        "id": 1,
-        "name_team_one": "",
-        "logo_team_one": "teams.png",
-        "name_team_two": "",
-        "logo_team_two": "teams.png",
-        "date_event": "2021-08-28 08:00:25",
-        "estadio": "",
-        "status": ""
+        "id": 4,
+        "name_team_one": "Santos",
+        "logo_team_one": "teams/Santos.jpg",
+        "name_team_two": "Voladores",
+        "logo_team_two": "teams/Voladores.jpg",
+        "date_event": "2022-04-17 10:15:35",
+        "estadio": "Don Bosco",
+        "status": "Pendiente"
     },   
     {
-        "id": 1,
-        "name_team_one": "",
-        "logo_team_one": "teams.png",
-        "name_team_two": "",
-        "logo_team_two": "teams.png",
+        "id": 5,
+        "name_team_one": "Inmortales",
+        "logo_team_one": "teams/Inmortales.png",
+        "name_team_two": "CCS",
+        "logo_team_two": "teams/Ccs.jpeg",
+        "date_event": "2022-04-10 08:00:25",
+        "estadio": "UCV Caracas",
+        "status": "Pendiente"
+    }, 
+    {
+        "id": 6,
+        "name_team_one": "Esperanza",
+        "logo_team_one": "teams/Esperanza.jpg",
+        "name_team_two": "La Julia",
+        "logo_team_two": "teams/La-Julia.jpeg",
         "date_event": "2021-08-28 08:00:25",
-        "estadio": "",
-        "status": ""
+        "estadio": "19 de Abril",
+        "status": "Pendiente"
     }    
 ]
