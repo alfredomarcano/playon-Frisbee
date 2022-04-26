@@ -2,6 +2,7 @@ import React from "react";
 
 export function Header() {
   return (
+    <>
     <div className="header">
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
@@ -10,5 +11,6 @@ export function Header() {
         nihil ratione.
       </p>
     </div>
+    </>
   );
 }

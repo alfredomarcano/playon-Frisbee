@@ -30,16 +30,31 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 30px;
     list-style: none;
+    align-items: center;
 }
 
 .Team{
-    box-shadow: 0px 0px 6px 4px #c4c4c4;
+    /* box-shadow: 4px 4px 10px -1px #c4c4c4aa; */
     border-radius: 4px;
     padding: 1rem;
-    height: auto;
-    display: block;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    transition: .5s;
 }
+
+.Team:hover{
+    box-shadow: 0px 0px 13px -3px #8aaaac;
+    transition: ease all 0.7s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Team h4{ opacity: 0; bottom: -20px; transition: 0.3s; position: relative;}
+.Team:hover h4{ opacity: 1; bottom: -7px; transition: ease-in-out 0.7s;}
 
 .Team img{
     width: 100px;
@@ -47,4 +62,10 @@
     box-shadow: 0px 0px 6px 4px #c4c4c4;
     border-radius: 50%;
     object-fit: cover;
+    transition: .5s;
+}
+
+.Team:hover img{
+    transform: scale(1.1,1.1) translateY(-10px);
+    transition: ease-in-out 0.7s;
 }
