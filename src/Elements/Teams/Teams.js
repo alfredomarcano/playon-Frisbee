@@ -10,11 +10,13 @@ export function Teams() {
   return (
     <div className="ListTeams">
       <div className="Leagues">
+        <h1>Ligas</h1>
         <LeagueCentro />
         <LeagueOccidente />
         <LeagueOriente />
       </div>
       <div className="Teams">
+        <h1>Equipos</h1>
         {teams.map((listTeam) => (
           <Team key={listTeam.id} listTeam={listTeam} />
         ))}

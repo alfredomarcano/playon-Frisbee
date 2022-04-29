@@ -6,9 +6,14 @@ import dateFormat from "dateformat";
 export function Champions() {
   return (
     <div className="Champions">
+      <h1>Partidos</h1>
       <div className="row">
         {champions.map(Listchamp => (
           <div className="champs-items" key={Listchamp.id}>
+            <ul className="online">
+              <li className="online-icon">&#x25B6;</li>
+              <li className="online-text">On line</li>
+            </ul>
             <section className="items-title">
               <article>
                 <span>{dateFormat(Listchamp.date_event, "ddd, m/d h:MM TT")}</span>
