@@ -5,7 +5,7 @@
 }
 
 .container90{
-  max-width: 1200px;
+  max-width: calc(100% - 10%);
   margin: 0 auto;
 }
 
